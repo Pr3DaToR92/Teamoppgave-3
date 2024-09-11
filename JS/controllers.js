@@ -13,7 +13,7 @@ function decay() {
 }
 function setTimer() {
   fuelTimer = setInterval(decay, 1000);
-}
+  }
 setTimer();
 function drive() {}
 function receive() {}
