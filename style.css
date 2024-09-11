@@ -1,10 +1,54 @@
 body {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-    width: 100vh;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  width: 100vh;
 }
-#coolnessBar,#fuelBar{
-    width: 250px;
-    border: 2px solid;
+#coolnessBar,
+#fuelBar {
+  width: 250px;
+  border: 2px solid;
 }
+#car {
+  width: 300px;
+}
+.kompis {
+  width: 300px;
+}
+.main {
+  display: flex;
+  justify-content: space-between;
+  border: 2px solid;
+}
+#dropdown {
+  width: 150px;
+  display: inline-table;
+  border: 2px solid;
+}
+#hilsList {
+  display: block;
+  position: absolute;
+  padding: 0;
+  margin: 0;
+  cursor: pointer;
+  li {
+    list-style-type: none;
+    padding: 5px 10px;
+  }
+}
+li:hover {
+  transform: scale(1.15);
+}
+button {
+  margin: 5px;
+  width: 120px;
+  padding: 5px;
+  border: 0.5px solid;
+  border-radius: 7px;
+  cursor: pointer;
+  box-shadow: 3px 3px 5px;
+  transition: transform 0.1s ease;
+}
+button:active {
+    transform: scale(0.95);
+  }

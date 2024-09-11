@@ -9,7 +9,7 @@ function updateView() {
         <div id="congrats">
             <h1> Gratulerer! du vant</h1>                
         </div>
-        <div>                                   
+        <div class="main">                                   
           <img id="car" src="../images/car.gif"  alt="car"/>
           <img class="kompis" src="../images/images.jpg" alt="kompis"/>
           
@@ -21,10 +21,10 @@ function updateView() {
         <div id="dropdown" >
           <button class="button" onclick="greet()"> Hilse </button>
             <ul id="hilsList">
-              <li>sdfghjk</li>
-              <li>sdfghjk</li>
-              <li>sdfghjk</li>
-              <li>sdfghjk</li>
+              <li>Assen går det!</li>
+              <li>Hva Skjera!</li>
+              <li>Wazzaaap!</li>
+              <li>Kom på besøk!</li>
             </ul>
         </div>
           `;
