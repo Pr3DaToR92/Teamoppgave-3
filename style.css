@@ -1,0 +1,10 @@
+body {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    width: 100vh;
+}
+#coolnessBar,#fuelBar{
+    width: 250px;
+    border: 2px solid;
+}

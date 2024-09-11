@@ -1,9 +1,9 @@
 function updateView() {
   document.getElementById("app").innerHTML = `
-        <div id="coolness">
+        <div id="coolness">Kulhet:
           <div id="coolnessBar">50%</div>
         </div>
-        <div id="fuel">
+        <div id="fuel">Bensin:
           <div id="fuelBar">100%</div>
         </div>
         <div id="congrats">
@@ -20,7 +20,7 @@ function updateView() {
           <button class="button" onclick="receive()"> Ta i Mot</button>
         <div id="dropdown" >
           <button class="button" onclick="greet()"> Hilse </button>
-            <ul id="dyrList">
+            <ul id="hilsList">
               <li>sdfghjk</li>
               <li>sdfghjk</li>
               <li>sdfghjk</li>
