@@ -6,7 +6,8 @@ body {
 }
 #coolness,
 #fuel {
-  width: 250px;
+  width: 350px;
+  
   
 }
 #car {
@@ -54,9 +55,11 @@ button:active {
 #coolnessBar{
   background-color: yellow;
   border: 2px solid;
+  width: 50%;
 }
 #fuelBar{
   background-color: green;
   border: 2px solid;
   width: 100%;
+  transition: width 1s ease;
 }

@@ -1,10 +1,12 @@
+
+
 function updateView() {
   document.getElementById("app").innerHTML = `
         <div id="coolness">Kulhet:
-          <div id="coolnessBar">50%</div>
+          <div id="coolnessBar">${coolnessProgress}%</div>
         </div>
         <div id="fuel">Bensin:
-          <div id="fuelBar">100%</div>
+          <div id="fuelBar">${fuelProgress}%</div>
         </div>
         <div id="congrats">
             <h1> Gratulerer! du vant</h1>                

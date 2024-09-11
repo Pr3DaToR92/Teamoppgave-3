@@ -1,4 +1,7 @@
 //Controllers
+updateView();
+let fuelColor = document.getElementById("fuelBar");
+
 function toggleDropdown() {
   let menu = document.getElementById("hilsList");
   if (menu.style.display === "block") {
@@ -8,13 +11,18 @@ function toggleDropdown() {
   }
 }
 function decay() {
-  fuelBar.style.width = fuelProgress + "%";
-  fuelProgress -= 10;
+  fuelColor.style.width = fuelProgress + "%";
+  fuelProgress -= 20;
+  console.log(fuelProgress);
 }
 function setTimer() {
-  fuelTimer = setInterval(decay, 1000);
+  
+  if (fuelProgress >0) {
+    fuelTimer = setInterval(decay, 1000);
   }
-setTimer();
+  else if (fuelProgress=0){clearInterval(fuelTimer);}
+}
+//setTimer();
 function drive() {}
 function receive() {}
 function greet() {}
