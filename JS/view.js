@@ -19,12 +19,12 @@ function updateView() {
           <button class="button" onclick="drive()"> KJØR Forbi</button>
           <button class="button" onclick="receive()"> Ta i Mot</button>
         <div id="dropdown" >
-          <button class="button" onclick="greet()"> Hilse </button>
+          <button class="button" onclick="toggleDropdown()"> Hilse </button>
             <ul id="hilsList">
-              <li>Assen går det!</li>
-              <li>Hva Skjera!</li>
-              <li>Wazzaaap!</li>
-              <li>Kom på besøk!</li>
+              <li onclick="greet()">Assen går det!</li>
+              <li onclick="greet()">Hva Skjera!</li>
+              <li onclick="greet()">Wazzaaap!</li>
+              <li onclick="greet()">Kom på besøk!</li>
             </ul>
         </div>
           `;

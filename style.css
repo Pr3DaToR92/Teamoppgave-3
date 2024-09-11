@@ -23,7 +23,7 @@ body {
 #dropdown {
   width: 150px;
   display: inline-table;
-  border: 2px solid;
+  
 }
 #hilsList {
   display: block;
