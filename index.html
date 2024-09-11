@@ -2,10 +2,43 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <meta name="viewport" content="width=div, initial-scale=1.0">
+    <title>Cool Car</title>
 </head>
 <body>
+    <div id="app"></div> 
+
+    <script>
+      //model
+      let message="";
+
+        //View
+      function updateVeiw(){ 
+        document.getElementById("app").innerHTML=`
+            <div id="coolness">
+              <div id="coolnessBar">50%</div>
+              </div>
+              <div id="fuel">
+              <div id="fuelBar">100%</div>
+              </div>
+              <div id="congrats">
+                <h1> Gratulerer! du vant</h1>                
+              </div>
+              <div>                                   
+              <img id="kompis" src="./imegs3/car.gif"  alt="kompis"/>
+              <img class="bilbilde" src="./imegs3/images.jpg" alt="Racerbil"/>
+              <img id="kompis" src="./imegs3/grandmother.webp"  alt="kompis"/>
+              </div>            
+              <p id="message">${message}</p>
+              <button class="button" onclick="greet()"> Hilse </button>
+              <button class="button" onclick="drive()"> KJØR Forbi</button>
+              <button class="button" onclick="receive()"> Ta i Mot</button>
+          `;
+      }
+      console.log( document.getElementById("app"))
+      updateVeiw();
+    </script>
+    
     
 </body>
 </html>
