@@ -4,10 +4,10 @@ body {
   padding: 0;
   width: 100vh;
 }
-#coolnessBar,
-#fuelBar {
+#coolness,
+#fuel {
   width: 250px;
-  border: 2px solid;
+  
 }
 #car {
   width: 300px;
@@ -23,7 +23,6 @@ body {
 #dropdown {
   width: 150px;
   display: inline-table;
-  
 }
 #hilsList {
   display: block;
@@ -50,5 +49,14 @@ button {
   transition: transform 0.1s ease;
 }
 button:active {
-    transform: scale(0.95);
-  }
+  transform: scale(0.95);
+}
+#coolnessBar{
+  background-color: yellow;
+  border: 2px solid;
+}
+#fuelBar{
+  background-color: green;
+  border: 2px solid;
+  width: 100%;
+}
