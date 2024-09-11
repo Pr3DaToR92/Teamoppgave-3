@@ -14,7 +14,7 @@ function updateView() {
           <img class="kompis" src="./images/images.jpg" alt="kompis"/>
           
           </div>            
-          <p id="message">${message}</p>
+          <p id="message"></p>
           
           <button class="button" onclick="drive()"> KJØR Forbi</button>
           <button class="button" onclick="receive()"> Ta i Mot</button>
