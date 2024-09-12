@@ -18,7 +18,7 @@ function updateView() {
         </div>            
           <p id="message"></p>
           
-          <button class="button" onclick="drive()"> KJØR Forbi</button>
+          <button class="button" onclick="drive()"> Kjør Forbi</button>
           <button class="button" onclick="receive()"> Ta i Mot</button>
         <div id="dropdown" >
           <button class="button" onclick="toggleDropdown()"> Hilse </button>
